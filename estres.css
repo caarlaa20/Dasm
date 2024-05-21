@@ -1,0 +1,108 @@
+/* Estilos generales */
+body {
+  margin: 0;
+  padding: 0;
+  font-family: "Segoe UI";
+}
+
+header {
+  background-color: #007bff; /* Azul */
+  color: #fff; /* Texto blanco */
+  text-align: center;
+  padding: 20px 0;
+}
+
+
+main {
+  padding: 20px;
+}
+
+section {
+  background-color: #b1d1f3;
+  padding: 20px;
+  border-radius: 10px;
+  margin-top: 2%;
+  margin-left: 20%;
+  margin-right: 20%;
+}
+
+h2 {
+  color: #007bff; /* Azul */
+}
+
+/* Estilos para los videos */
+.video {
+  margin-bottom: 20px;
+}
+
+.video iframe {
+  max-width: 100%;
+  height: auto;
+  display: block;
+  margin-bottom: 10px;
+}
+
+/* Estilos para las fotos */
+.foto {
+  margin-bottom: 20px;
+}
+
+.foto img {
+  max-width: 20%;
+  height: auto;
+  display: block;
+  margin-bottom: 10px;
+  margin-left: 40%;
+}
+/* Estilos para la barra de navegación */
+.navbar {
+  background-color:  #fff0f7;
+  color: #fff;
+  padding: 10px 0;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
+
+.navbar .container1 {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 0 50px;
+}
+
+.logo {
+  width: 100px; /* Ancho de la imagen */
+  height: auto; /* Altura ajustada automáticamente */
+  margin-right: 0; /* Alinea el logo a la izquierda */
+}
+
+.nav-links {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+}
+
+.nav-links li {
+  display: inline;
+  margin-right: 20px;
+}
+
+.nav-links li a {
+  color: #3b3434;
+  text-decoration: none;
+  font-size: 18px;
+  transition: color 0.3s;
+}
+
+.nav-links li a:hover {
+  color: #ffd700;
+}
+
+.container1 {
+  margin: 20px auto;
+  width: 80%;
+  max-width: 800px;
+  background-color: #fff;
+  border-radius: 10px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  padding: 20px;
+}
