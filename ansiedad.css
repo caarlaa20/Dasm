@@ -1,0 +1,152 @@
+/* Estilos generales */
+body {
+  margin: 0;
+  padding: 0;
+  font-family: "Segoe UI";
+  background-color: #e0f2f1; /* Color de fondo frío */
+  color: #333; /* Color del texto */
+}
+
+main {
+  padding: 20px;
+}
+
+/* Estilos para los videos */
+/* Estilos para los videos */
+#videos {
+  overflow: hidden; /* Para evitar que los videos se desborden del contenedor */
+}
+
+.video {
+  float: left; /* Coloca los videos uno al lado del otro */
+  width: calc(50% - 20px); /* Calcula el 50% del ancho del contenedor y resta el margen entre los videos */
+  margin-right: 40px; /* Espacio entre los videos */
+  margin-bottom: 20px;
+}
+
+.video:last-child {
+  margin-right: 0; /* Elimina el margen derecho del último video */
+}
+
+@media (max-width: 768px) {
+  .video {
+    float: none; /* En dispositivos pequeños, los videos se muestran en una sola columna */
+    width: 100%; /* Cada video ocupa el 100% del ancho */
+    margin-right: 0; /* Elimina el margen entre los videos */
+  }
+}
+
+
+section {
+  margin-bottom: 40px;
+  background-color: #fff; /* Color de fondo de las secciones */
+  padding: 20px;
+  border-radius: 10px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  margin-left: 20%;
+  margin-right: 20%;
+}
+
+h2 {
+  color: #03a9f4; /* Color del título (azul claro) */
+  text-align: center;
+}
+
+/* Estilos para las fotos */
+.foto {
+  margin-bottom: 20px;
+}
+
+.foto img {
+  max-width: 100%;
+  height: auto;
+  display: block;
+  margin-bottom: 10px;
+width: 20%;
+margin-left: 40%;
+}
+
+/* Estilos para texto resaltado */
+.resaltado {
+  color: #ff9800; /* Color de texto resaltado (naranja) */
+}
+
+/* Estilos para listas */
+ul {
+  list-style-type: none;
+  padding-left: 20px;
+}
+
+li::before {
+  content: "\2022"; /* Código Unicode para el punto de viñeta */
+  color: #ff9800; /* Color del punto de viñeta (naranja) */
+  font-weight: bold;
+  display: inline-block;
+  width: 1em;
+  margin-left: -1em;
+}
+
+/* Estilos para bloques de citas */
+blockquote {
+  background-color: #ffe0b2; /* Color de fondo del bloque de citas (naranja claro) */
+  border-left: 5px solid #ff9800; /* Borde izquierdo naranja */
+  padding: 10px;
+  margin: 10px 0;
+}
+/* Estilos para la barra de navegación */
+.navbar {
+  background-color:  #fff0f7;
+  color: #fff;
+  padding: 10px 0;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
+
+.navbar .container1 {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 0 50px;
+}
+
+.logo {
+  width: 100px; /* Ancho de la imagen */
+  height: auto; /* Altura ajustada automáticamente */
+  margin-right: 0; /* Alinea el logo a la izquierda */
+}
+
+.nav-links {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+}
+
+.nav-links li {
+  display: inline;
+  margin-right: 20px;
+}
+
+.nav-links li a {
+  color: #3b3434;
+  text-decoration: none;
+  font-size: 18px;
+  transition: color 0.3s;
+}
+
+.nav-links li a:hover {
+  color: #ffd700;
+}
+
+.container1 {
+  margin: 20px auto;
+  width: 80%;
+  max-width: 800px;
+  background-color: #fff;
+  border-radius: 10px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  padding: 20px;
+}
+
+p{
+  margin-left: 3%;
+  margin-right: 3%;
+}
