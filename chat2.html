@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Chat</title>
+    <link rel="stylesheet" href="../chat2.css">
+  <script src="../chat2.js"></script>
+</head> 
+<body>
+  <nav class="navbar white-bg">
+    <div class="container">
+        <img src="dasm.png" alt="Mi Diario" class="logo">
+        <ul class="nav-links">
+            <li><a href="chat2.html">Inicio</a></li>
+            <li><a href="informacion.html">Información</a></li>
+            <li><a href="diario.html">Diario</a></li>
+            <li><a href="mensajes.html">Mensajes</a></li>
+            <li><a href="progreso.html">Progreso</a></li>
+        </ul>
+    </div>
+  </nav>
+    <div class="chat-container">
+        <ul class="messages" id="messages">
+          <!-- Aquí se mostrarán los mensajes -->
+        </ul>
+        <div class="input-container">
+          <input type="text" id="userInput" placeholder="Escribe tu mensaje...">
+          <button onclick="sendMessage()">Enviar</button>
+        </div>
+</body>
+</html>
