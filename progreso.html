@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Progreso</title>
+    <link rel="stylesheet" href="progreso.css">
+    <script src="progreso.js"></script>
+</head>
+<body>
+    <nav class="navbar white-bg">
+        <div class="container1">
+            <img src="dasm.png" alt="Mi Diario" class="logo">
+            <ul class="nav-links">
+                <li><a href="chat2.html">Inicio</a></li>
+                <li><a href="informacion.html">Información</a></li>
+                <li><a href="diario.html">Diario</a></li>
+                <li><a href="mensajes.html">Mensajes</a></li>
+                <li><a href="progreso.html">Progreso</a></li>
+            </ul>
+        </div>
+      </nav>
+
+    <div class="container">
+        <textarea id="entry" placeholder="Escribe aquí..."></textarea>
+        <button onclick="guardarEntrada()">Guardar</button>
+    </div>
+
+    <div class="container">
+        <h2>Mi progreso</h2>
+        <div id="entries">
+            <!-- Aquí se cargarán las entradas del usuario -->
+        </div>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
