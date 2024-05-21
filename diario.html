@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Diario Digital</title>
+<link rel="stylesheet" href="diario.css">
+<script src="diario.js" defer></script>
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css">
+</head>
+<body>
+  <nav class="navbar white-bg">
+    <div class="container1">
+        <img src="dasm.png" alt="Mi Diario" class="logo">
+        <ul class="nav-links">
+            <li><a href="chat2.html">Inicio</a></li>
+            <li><a href="informacion.html">Información</a></li>
+            <li><a href="diario.html">Diario</a></li>
+            <li><a href="mensajes.html">Mensajes</a></li>
+            <li><a href="#">Ajustes</a></li>
+        </ul>
+    </div>
+</nav>
+<div class="container">
+  <h1>Diario Digital</h1>
+  <div id="entryForm">
+    <textarea id="entryInput" placeholder="Escribe tu entrada aquí..."></textarea>
+    <button onclick="addEntry()">Guardar entrada</button>
+  </div>
+  <div class="entries" id="entries"></div>
+  <h2>Entradas Publicadas</h2>
+  <div class="published-entries" id="publishedEntries"></div>
+</div>
+</body>
+</html>
